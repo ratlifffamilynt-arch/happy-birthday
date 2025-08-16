@@ -152,7 +152,7 @@ setInterval(draw, 30);
 function drawZaMoon() {
   ctx.lineWidth = 5;
   ctx.strokeStyle = 'darkgray';
-  ctx.fillStyle = 'lightblue';
+  ctx.fillStyle = 'gray';
   
   ctx.beginPath();
   ctx.arc(20, 125, 19, 0, Math.PI * 2, true);
