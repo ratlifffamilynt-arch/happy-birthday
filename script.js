@@ -13,7 +13,7 @@ var ctx = canvas.getContext('2d');
   ctx.fillStyle = 'lightgray';
   
   ctx.beginPath();
-  ctx.arc(50, 10, 30, 0, Math.PI * 2, true); // fixed moon position
+  ctx.arc(390, 10, 30, 0, Math.PI * 2, true); // fixed moon position
   ctx.fill();
   
   ctx.restore(); // restore so nothing else is affected
