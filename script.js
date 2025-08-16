@@ -145,14 +145,23 @@ function draw() {
   ctx.lineTo(190 + Math.random() * 20, 320 + Math.random() * 20);
   ctx.lineTo(220, 310)
   ctx.fill();
+}
+setInterval(draw, 30);
+
+
+function drawZaMoon() {
+  ctx.lineWidth = 5;
+  ctx.strokeStyle = 'darkgray';
+  ctx.fillStyle = 'lightblue';
   
-  
-  
-  
-  
-  
+  ctx.beginPath();
+  ctx.arc(20, 125, 19, 0, Math.PI * 2, true);
+  ctx.fill();
+  ctx.stroke();
   
 }
 
 
-setInterval(draw, 30);
+
+
+
