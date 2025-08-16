@@ -25,7 +25,7 @@ function draw() {
   
   ctx.save();
   ctx.translate(Math.random() * 3, Math.random() * 3);
-  ctx.rotate(Math.random() * 0.02);
+  ctx.rotate(Math.random() * -0.02);
   
   
   
