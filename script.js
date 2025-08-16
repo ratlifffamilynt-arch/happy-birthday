@@ -9,7 +9,7 @@ var ctx = canvas.getContext('2d');
  function drawZaMoon() {
   ctx.save(); // save state
   ctx.lineWidth = 5;
-  ctx.strokeStyle = 'gray';
+  ctx.strokeStyle = 'gray'; 
   ctx.fillStyle = 'gray';
   
   ctx.beginPath();
