@@ -1,10 +1,6 @@
 var canvas = document.querySelector('canvas');
 var ctx = canvas.getContext('2d');  
-const heading = document.querySelector('h1'); // or getElementById, etc.
-    heading.style.color = 'red';
-h1 span {
-      letter-spacing: -4px;
-    }
+
 
 function draw() {
   
