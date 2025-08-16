@@ -2,6 +2,23 @@
 var ctx = canvas.getContext('2d');  
 
 
+
+
+
+
+ function drawZaMoon() {
+  ctx.save(); // save state
+  ctx.lineWidth = 5;
+  ctx.strokeStyle = 'darkgray';
+  ctx.fillStyle = 'gray';
+  
+  ctx.beginPath();
+  ctx.arc(400, 400, 20, 0, Math.PI * 2, true); // fixed moon position
+  ctx.fill();
+  ctx.stroke();
+  
+  ctx.restore(); // restore so nothing else is affected
+}
 function draw() {
   ctx.restore();
   
