@@ -3,23 +3,7 @@ var ctx = canvas.getContext('2d');
 
 
 function draw() {
-  
-  
-  
-  
-
-  
-  
-  
-  //rocket body
-  
   ctx.restore();
-  
- 
-  
-  
-  
-  
   
   ctx.fillStyle = 'darkblue';
   ctx.fillRect(0, 0, 400, 400);
@@ -31,6 +15,7 @@ function draw() {
   
   
   
+  //rocket body
   ctx.lineWidth = 3;
   ctx.strokeStyle = 'white';
   
