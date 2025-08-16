@@ -164,7 +164,6 @@ function drawZaMoon() {
   ctx.restore();
 }
 
-setInterval(drawZaMoon, 100);
 
 
 
