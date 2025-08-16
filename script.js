@@ -150,7 +150,6 @@ setInterval(draw, 30);
 
 
 function drawZaMoon() {
-  ctx.restore();
   ctx.save();
   ctx.lineWidth = 5;
   ctx.strokeStyle = 'darkgray';
@@ -161,7 +160,7 @@ function drawZaMoon() {
   ctx.fill();
   ctx.stroke();
   
-  ctx.save();
+  ctx.restore();
 }
 
 setInterval(drawZaMoon, 100);
