@@ -10,12 +10,11 @@ var ctx = canvas.getContext('2d');
   ctx.save(); // save state
   ctx.lineWidth = 5;
   ctx.strokeStyle = 'gray'; 
-  ctx.fillStyle = 'gray';
+  ctx.fillStyle = 'lightgray';
   
   ctx.beginPath();
   ctx.arc(390, 10, 20, 0, Math.PI * 2, true); // fixed moon position
   ctx.fill();
-  ctx.stroke();
   
   ctx.restore(); // restore so nothing else is affected
 }
