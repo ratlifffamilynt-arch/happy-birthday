@@ -7,6 +7,7 @@ function draw() {
   
   ctx.fillStyle = 'darkblue';
   ctx.fillRect(0, 0, 400, 400);
+  drawZaMoon();
   
   ctx.save();
   ctx.translate(Math.random() * 3, Math.random() * 3);
