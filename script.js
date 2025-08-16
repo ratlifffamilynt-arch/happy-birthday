@@ -161,7 +161,7 @@ function drawZaMoon() {
   
 }
 
-drawZaMoon()
+drawZaMoon();
 
 
 
