@@ -1,4 +1,4 @@
-var canvas = document.querySelector('canvas');
+  var canvas = document.querySelector('canvas');
 var ctx = canvas.getContext('2d');  
 
 
@@ -161,6 +161,7 @@ function drawZaMoon() {
   ctx.fill();
   ctx.stroke();
   
+  ctx.save();
 }
 
 setInterval(drawZaMoon, 100);
