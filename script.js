@@ -161,7 +161,7 @@ function drawZaMoon() {
   
 }
 
-setInterval(drawZaMoon, 1);
+setInterval(drawZaMoon, 100);
 
 
 
