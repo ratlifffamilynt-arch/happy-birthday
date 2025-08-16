@@ -13,11 +13,52 @@ var ctx = canvas.getContext('2d');
   ctx.fillStyle = 'lightgray';
   
   ctx.beginPath();
-  ctx.arc(390, 10, 30, 0, Math.PI * 2, true); // fixed moon position
+  ctx.arc(390, 10, 30, 0, Math.PI * 2, true); 
   ctx.fill();
   
-  ctx.restore(); // restore so nothing else is affected
+  ctx.fillStyle = 'Gainsboro';
+  
+  
+  ctx.beginPath();
+  ctx.arc(389, 30, 7, 0, Math.PI * 2, true); 
+  ctx.fill();
+  
+  ctx.beginPath();
+  ctx.arc(373, 9, 11, 0, Math.PI * 2, true); 
+  ctx.fill();
+  
+  ctx.beginPath();
+  ctx.arc(396, 17, 3, 0, Math.PI * 2, true); 
+  ctx.fill();
+  
+  ctx.beginPath();
+  ctx.arc(392, 0, 5, 0, Math.PI * 2, true); 
+  ctx.fill();
+  
+  
+  ctx.fillStyle = 'silver';
+  
+  ctx.beginPath();
+  ctx.arc(378, 22, 8, 0, Math.PI * 2, true); 
+  ctx.fill();
+  
+  ctx.beginPath();
+  ctx.arc(383, 0, 10, 0, Math.PI * 2, true); 
+  ctx.fill();
+  
+  ctx.beginPath();
+  ctx.arc(398, 26, 6, 0, Math.PI * 2, true); 
+  ctx.fill();
+  
+  
+  
+  
+  
+  ctx.restore(); 
 }
+
+
+
 function draw() {
   ctx.restore();
   
@@ -164,10 +205,3 @@ function draw() {
   ctx.fill();
 }
 setInterval(draw, 30);
-
-
-
-
-
-
-
