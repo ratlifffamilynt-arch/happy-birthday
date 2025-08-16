@@ -62,7 +62,7 @@ var ctx = canvas.getContext('2d');
 function draw() {
   ctx.restore();
   
-  ctx.fillStyle = 'darkblue';
+  ctx.fillStyle = 'MidnightBlue';
   ctx.fillRect(0, 0, 400, 400);
   drawZaMoon();
   
@@ -73,7 +73,7 @@ function draw() {
   
   
   
-  //rocket body
+  //stars
   ctx.lineWidth = 3;
   ctx.strokeStyle = 'white';
   
@@ -97,6 +97,9 @@ function draw() {
   ctx.arc(Math.random() * 400, Math.random() * 400, 1, 0, Math.PI * 2, true);
   ctx.stroke();
   
+  ctx.beginPath();
+  ctx.arc(Math.random() * 400, Math.random() * 400, 1, 0, Math.PI * 2, true);
+  ctx.stroke();
   
   
   
@@ -109,6 +112,7 @@ function draw() {
   
   
   
+  //rocket body
   
   ctx.fillStyle = 'lightgray';
   ctx.fillRect(160, 100, 80, 200);
@@ -181,8 +185,13 @@ function draw() {
   ctx.stroke();
   
   ctx.beginPath();
-  ctx.moveTo(196, 129);
-  ctx.lineTo(204, 129);
+  ctx.moveTo(195, 127);
+  ctx.lineTo(196, 128);
+  ctx.lineTo(197, 129);
+  ctx.lineTo(202, 129);
+  ctx.lineTo(203, 129);
+  ctx.lineTo(204, 128);
+  ctx.lineTo(205, 127);
   ctx.stroke();
   
   
